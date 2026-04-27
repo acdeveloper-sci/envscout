@@ -1,0 +1,61 @@
+site_name: EnvScout
+site_description: Cross-platform tool to discover and manage Python virtual environments
+site_author: Adolfo J. Cardozo S.
+site_url: https://acdeveloper-sci.github.io/envscout/
+
+repo_name: acdeveloper-sci/envscout
+repo_url: https://github.com/acdeveloper-sci/envscout
+
+copyright: Copyright &copy; 2026 Adolfo J. Cardozo S. — ACAI
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - User Guide:
+    - Installation: user-guide/installation.md
+    - Quick Start: user-guide/quick-start.md
+    - Commands:
+      - scan: user-guide/commands/scan.md
+      - inspect: user-guide/commands/inspect.md
+      - export: user-guide/commands/export.md
+      - clean: user-guide/commands/clean.md
+      - info: user-guide/commands/info.md
+    - Supported Environments: user-guide/supported-envs.md
+  - Contributing:
+    - Getting Started: contributing/getting-started.md
+    - Architecture: contributing/architecture.md
+    - Changelog: contributing/changelog.md

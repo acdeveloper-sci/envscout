@@ -148,8 +148,3 @@ cython_debug/
 # .abstra/            # Abstra — not used
 # .streamlit/         # Streamlit — not used
 # marimo/             # Marimo — not used
-
-# private
-docs/internal/
-CLAUDE.md
-AGENTS.md
