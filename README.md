@@ -138,7 +138,7 @@ Benchmark (10,000 directories, 35 environments):
 | 4     | GUI cross-platform                       | ⏳ Pending     |
 | 5     | Advanced features + AI integration       | 🔮 Future      |
 
-See [`docs/ROADMAP.md`](docs/ROADMAP.md) for full details.
+See the [full roadmap](https://acdeveloper-sci.github.io/envscout/contributing/changelog/) for details.
 
 ---
 
@@ -196,9 +196,8 @@ envscout/
 Contributions are welcome. Please read the guidelines before opening a PR:
 
 - All code and documentation must be written in **English**
-- Follow the code quality rules in [`docs/PYTHON_GUIDELINES.md`](docs/PYTHON_GUIDELINES.md)
+- Follow the code quality rules in [Contributing Guide](https://acdeveloper-sci.github.io/envscout/contributing/getting-started/)
 - Run the full check before submitting: tests, mypy, ruff
-- See [`docs/CONTEXT.md`](docs/CONTEXT.md) for full project context
 
 ---
 
